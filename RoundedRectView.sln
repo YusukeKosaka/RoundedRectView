@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundedRectView", "RoundedRectView\RoundedRectView.csproj", "{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}.Debug|iPhone.Build.0 = Debug|iPhone
+		{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}.Release|iPhone.ActiveCfg = Release|iPhone
+		{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}.Release|iPhone.Build.0 = Release|iPhone
+		{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{83C3D3F7-ACE9-4CF6-9D9F-C3076A751069}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RoundedRectView\RoundedRectView.csproj
+	EndGlobalSection
+EndGlobal
