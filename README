@@ -1,9 +1,11 @@
-RoundedRectView
+RoundedRectView for Monotouch
 
 - Implementation of UIView with rounded corners.
 - Uses CALayer and UIBezierPath.
 - Supports clipping subviews correctly.
 - Supports to round any desired corner.
+
+This includes a demo project built with Monodevelop 2.8.
 
 Let me know if you like it.
 
