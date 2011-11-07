@@ -20,15 +20,22 @@ namespace RoundedRectView
 			window.BackgroundColor = UIColor.ScrollViewTexturedBackgroundColor;
 			
 			// All corners rounded.
-			var v = new RoundedRectView (new RectangleF (100, 100, 400, 200), UIColor.Green);
+			RoundedRectView v = new RoundedRectView (new RectangleF (100, 100, 400, 200), UIColor.Green);
 			window.AddSubview (v);
 			
+			// Add a view that gets clipped.
+			UIView clippedView = new UIView(new RectangleF(0, 0, 400, 50))
+			{
+				BackgroundColor = UIColor.Red
+			};
+			v.AddSubview(clippedView);
+			
 			// Bottom corners rounded.
-			v = new RoundedRectView (new RectangleF (100, 400, 200, 200), UIColor.Red, RoundedRectView.ROUND_CORNERS.Bottom);
+			v = new RoundedRectView (new RectangleF (100, 400, 200, 200), UIColor.Red, RoundedRectView.RoundedBottomCorners);
 			window.AddSubview (v);
 			
 			// Top left and bottom right rounded.
-			v = new RoundedRectView (new RectangleF (400, 500, 100, 100), UIColor.Blue, RoundedRectView.ROUND_CORNERS.TopLeft | RoundedRectView.ROUND_CORNERS.BottomRight);
+			v = new RoundedRectView (new RectangleF (400, 500, 100, 100), UIColor.Blue, UIRectCorner.TopLeft | UIRectCorner.BottomRight);
 			window.AddSubview (v);
 			
 			// Texture background.
@@ -39,6 +46,8 @@ namespace RoundedRectView
 			
 			// make the window visible
 			window.MakeKeyAndVisible ();
+			
+			
 			
 			return true;
 		}
