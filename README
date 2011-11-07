@@ -1,0 +1,10 @@
+RoundedRectView
+
+- Implementation of UIView with rounded corners.
+- Uses CALayer and UIBezierPath.
+- Supports clipping subviews correctly.
+- Supports to round any desired corner.
+
+Let me know if you like it.
+
+René
